@@ -115,5 +115,5 @@ export const dubbla = (n: number): number => {
 }
 export const ärJämnt = (n: number): boolean => {
   // TODO
-  return n % 2 ? false : true
+  return !(n % 2)
 }
